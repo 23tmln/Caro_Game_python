@@ -30,7 +30,7 @@ class Menu:
         while True:
             self.screen.fill((240, 220, 180))
 
-            title = self.font_title.render("Five in a Row", True, TEXT_COLOR)
+            title = self.font_title.render("CARO GAME", True, TEXT_COLOR)
             self.screen.blit(
                 title, (WIDTH // 2 - title.get_width() // 2, 120)
             )
