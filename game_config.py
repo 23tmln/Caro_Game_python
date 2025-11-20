@@ -1,0 +1,21 @@
+# game_config.py
+
+# Board configuration
+GRID_SIZE = 15
+CELL_SIZE = 40
+MARGIN = 40
+
+# Window size
+WIDTH = GRID_SIZE * CELL_SIZE + MARGIN * 2
+HEIGHT = GRID_SIZE * CELL_SIZE + MARGIN * 2+40
+
+WINDOW_TITLE = "Five in a Row"
+FPS = 60
+
+# Colors
+BACKGROUND_COLOR = (240, 220, 180)
+GRID_COLOR = (0, 0, 0)
+X_COLOR = (220, 0, 0)
+O_COLOR = (0, 0, 220)
+WIN_HIGHLIGHT_COLOR = (255, 215, 0)
+TEXT_COLOR = (0, 0, 0)
